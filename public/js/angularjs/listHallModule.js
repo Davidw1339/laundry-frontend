@@ -23,7 +23,6 @@ listHalls.controller('listHallCtrl', [ //controller for showing stores
     function($scope, halls) {
         $scope.halls = halls.halls; //setting stores
         $scope.sortType = 'name';
-
         halls.getAll();
 
 }]);
